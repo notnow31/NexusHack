@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "id": "nexushack",
+  "version": "1.0.0",
+  "name": "NexusHack",
+  "description": "Custom Minecraft utility client",
+  "authors": [
+    "Yiğit"
+  ],
+  "contact": {
+    "homepage": "https://github.com/notnow31/NexusHack"
+  },
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "com.nexushack.NexusHackClient"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.15.0",
+    "minecraft": "1.21",
+    "java": ">=21"
+  }
+}
+
